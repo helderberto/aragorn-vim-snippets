@@ -1,6 +1,6 @@
 # VIM Snippets
 
-🧪 My personal VIM snippets made with UltiSnips engine.
+🧪 My personal VIM snippets made with [UltiSnips engine](https://github.com/SirVer/ultisnips).
 
 ## Installation
 
