@@ -1,0 +1,42 @@
+priority -50
+
+snippet jinit "Jest - Init test file"
+import $1 from './$1';
+describe('$1', () => {
+	test('$2', () => {
+		$3
+	});
+});
+endsnippet
+
+snippet desc "Jest - describe(name, fn)"
+describe('$1', () => {
+	${VISUAL}$0
+});
+endsnippet
+
+snippet test "Jest - test(name, fn)"
+test('$1', () => {
+	$2
+});
+endsnippet
+
+snippet it "Jest - it(name, fn)"
+it('should $1', () => {
+	$2
+});
+endsnippet
+
+snippet ita "Jest - it(name, async () => {})"
+it('should $1', async () => {
+	$2
+});
+endsnippet
+
+snippet etb "Jest - expect(value).toBe(value)"
+expect($1).toBe($2);
+endsnippet
+
+snippet exp "Jest - expect(value)"
+expect($1)$2;
+endsnippet
