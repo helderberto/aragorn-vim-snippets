@@ -1,0 +1,74 @@
+priority -50
+
+# console - https://developer.mozilla.org/en-US/docs/Web/API/console
+snippet cl "console.log"
+console.log($1);
+endsnippet
+
+snippet cd "console.debug"
+console.debug($1);
+endsnippet
+
+snippet ce "console.error"
+console.error($1);
+endsnippet
+
+snippet cw "console.warn"
+console.warn($1);
+endsnippet
+
+snippet ci "console.info"
+console.info($1);
+endsnippet
+
+snippet ct "console.trace"
+console.trace(${1});
+endsnippet
+
+snippet ctime "console.time ... console.timeEnd"
+console.time("${1}");
+${1:${VISUAL}}
+console.timeEnd("$1");
+endsnippet
+
+snippet ctimestamp "console.timeStamp"
+console.timeStamp("${1:label}");
+endsnippet
+
+snippet ca "console.assert"
+console.assert(${1}, ${2});
+endsnippet
+
+snippet cclear "console.clear"
+console.clear();
+endsnippet
+
+snippet cdir "console.dir"
+console.dir(${1});
+endsnippet
+
+snippet cgroup "console.group"
+console.group("${1}");
+${1:${VISUAL}}
+console.groupEnd();
+endsnippet
+
+snippet cgroupc "console.groupCollapsed"
+console.groupCollapsed("${1}");
+${1:${VISUAL}}
+console.groupEnd();
+endsnippet
+
+snippet cprof "console.profile"
+console.profile("${1}");
+${1:${VISUAL}}
+console.profileEnd();
+endsnippet
+
+snippet ctable "console.table"
+console.table(${1:"${2}"});
+endsnippet
+
+snippet clstr "console.log stringified"
+console.log(JSON.stringify($1, null, 2));
+endsnippet
