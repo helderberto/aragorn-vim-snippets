@@ -1,4 +1,4 @@
-# HB VIM Snippets
+# VIM Snippets
 
 🧪 My personal VIM snippets.
 

@@ -1,8 +1,8 @@
 {
-  "name" : "hb-vim-snippets",
+  "name" : "aragorn-vim-snippets",
   "author" : "Helder Burato Berto @helderburato",
   "maintainer" : "Helder Burato Berto",
-  "repository" : {"type": "git", "url": "git://github.com/helderburato/hb-vim-snippets.git"},
+  "repository" : {"type": "git", "url": "git://github.com/helderburato/aragorn-vim-snippets.git"},
   "dependencies" : {
   },
   "description" : "🧪 My personal VIM snippets."
