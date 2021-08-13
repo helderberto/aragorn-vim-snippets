@@ -1,6 +1,6 @@
-# VIM Snippets
+# HB VIM Snippets
 
-🧪 My personal VIM snippets made with [UltiSnips engine](https://github.com/SirVer/ultisnips).
+🧪 My personal VIM snippets.
 
 ## Installation
 
@@ -10,7 +10,7 @@ VIM Plug
 
 Add the following line to your .vimrc:
 ```
-Plug 'helderburato/vim-snippets'
+Plug 'helderburato/hb-vim-snippets'
 ```
 
 ## License
