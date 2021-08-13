@@ -2,6 +2,7 @@ priority -50
 
 snippet jinit "Jest - Init test file"
 import $1 from './$1';
+
 describe('$1', () => {
 	test('$2', () => {
 		$3
@@ -9,6 +10,7 @@ describe('$1', () => {
 });
 endsnippet
 
+# Jest Globals - https://jestjs.io/docs/api#methods
 snippet desc "Jest - describe(name, fn)"
 describe('$1', () => {
 	${VISUAL}$0
@@ -33,10 +35,11 @@ it('should $1', async () => {
 });
 endsnippet
 
-snippet etb "Jest - expect(value).toBe(value)"
-expect($1).toBe($2);
-endsnippet
-
+# Jest Expect Methods - https://jestjs.io/docs/expect#methods
 snippet exp "Jest - expect(value)"
 expect($1)$2;
+endsnippet
+
+snippet etb "Jest - expect(value).toBe(value)"
+expect($1).toBe($2);
 endsnippet
