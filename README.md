@@ -10,7 +10,7 @@ VIM Plug
 
 Add the following line to your .vimrc:
 ```
-Plug 'helderburato/hb-vim-snippets'
+Plug 'helderburato/aragorn-vim-snippets'
 ```
 
 ## License
