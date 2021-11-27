@@ -4,11 +4,13 @@ priority -50
 snippet rsuite "React Testing Library - Init test file"
 import { render, screen } from '@testing-library/react';
 
-import $1 from './$1';
+import $1 from './$2';
 
-describe('$1', () => {
-	it('should $2', () => {
-		$3
+describe('<$1 />', () => {
+	it('should $3', () => {
+    render(<$1 />);
+
+    expect(screen.$4).toBeInTheDocument();
 	});
 });
 endsnippet
