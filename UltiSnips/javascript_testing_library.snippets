@@ -14,3 +14,12 @@ describe('<$1 />', () => {
 	});
 });
 endsnippet
+
+## RTL - Async Methods (https://testing-library.com/docs/dom-testing-library/api-async)
+
+## waitFor(cb, options) - https://testing-library.com/docs/dom-testing-library/api-async/#waitfor
+snippet wfor "React Testing Library - waitFor(cb, options)"
+await waitFor(() => {
+  $1
+}$2);
+endsnippet
