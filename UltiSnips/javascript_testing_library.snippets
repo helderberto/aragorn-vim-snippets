@@ -1,6 +1,6 @@
 priority -50
 
-# React Testing Library - https://testing-library.com/docs/react-testing-library/intro
+# React Testing Library (RTL) - https://testing-library.com/docs/react-testing-library/intro
 snippet rsuite "React Testing Library - Init test file"
 import { render, screen } from '@testing-library/react';
 
@@ -22,4 +22,14 @@ snippet wfor "React Testing Library - waitFor(cb, options)"
 await waitFor(() => {
   $1
 }$2);
+endsnippet
+
+## React Hooks Testing Library - https://react-hooks-testing-library.com/
+## Repository - https://github.com/testing-library/react-hooks-testing-library
+
+## act() - https://react-hooks-testing-library.com/reference/api#act
+## This is the same `act function` that is exported from your chosen renderer.
+## https://reactjs.org/docs/test-utils.html#act
+snippet act "act(fn)"
+act(() => $1);
 endsnippet
